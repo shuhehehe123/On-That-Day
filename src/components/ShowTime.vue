@@ -13,13 +13,14 @@ export default {
       year: new Date().getFullYear(),
       month: (new Date().getMonth())+1,//Javascript默认0月为一月
       date: new Date().getDate()
+
     };
   },
   /*
   props:{
     date:new Date()
   }
-
+  传参测试
   */
 }
 </script>

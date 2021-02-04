@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <calender></calender>
+  <ShowTime></ShowTime>
 </template>
 
 <script>
-import Calender from "@/components/Calender";
+import ShowTime from "@/components/ShowTime";
 
 export default {
   name: 'App',
   components: {
-    Calender,
+    ShowTime,
   }
 }
 </script>
