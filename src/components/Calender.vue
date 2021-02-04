@@ -11,7 +11,7 @@ export default {
   data: function (){
     return {
       year: new Date().getFullYear(),
-      month: (new Date().getMonth())+1,
+      month: (new Date().getMonth())+1,//Javascript默认0月为一月
       date: new Date().getDate()
     };
   },
