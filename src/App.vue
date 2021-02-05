@@ -1,14 +1,20 @@
 <template>
-  <ShowTime></ShowTime>
+  <Heading></Heading>
+  <Form></Form>
 </template>
 
 <script>
-import ShowTime from "@/components/ShowTime";
+//import ShowTime from "@/components/ShowTime";
+//这行为原来的显示时间
+import Form from "@/components/Form";
+import Heading from "@/components/Heading";
 
 export default {
   name: 'App',
   components: {
-    ShowTime,
+    Heading,
+    Form,
+
   }
 }
 </script>
