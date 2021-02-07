@@ -1,19 +1,19 @@
 <template>
   <Heading></Heading>
-  <Form></Form>
+  <Body></Body>
 </template>
 
 <script>
 //import ShowTime from "@/components/ShowTime";
 //这行为原来的显示时间
-import Form from "@/components/Form";
 import Heading from "@/components/Heading";
+import Body from "@/components/Body";
 
 export default {
   name: 'App',
   components: {
     Heading,
-    Form,
+    Body,
 
   }
 }

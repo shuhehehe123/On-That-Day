@@ -28,5 +28,13 @@ export default {
 <style scoped>
 .centre{
   text-align:center;
+  border-style:solid;
+  border-color: #2193d5;
+  width:800px;
+  height:50px;
+  border-width:1.618px;
+  position:relative;
+  left:250px;
+  float:top;
 }
 </style>

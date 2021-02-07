@@ -20,13 +20,16 @@ export default {
 
 <style scoped>
 .heading{
-  text-align:center;
+  position:fixed;
   border-style:solid;
-  border-color: #2193d5;
-  width:800px;
-  height:50px;
-  border-width:1.618px;
-  position:relative;
-  left:250px;
+  border-color: #87c5f6;
+  width:100%;
+  height:auto;
+  top:0;
+  margin-bottom:5px;
+  background: #d2eaf3;
+
+  /*left:250px;
+  float:top;*/
 }
 </style>
